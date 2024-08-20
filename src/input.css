@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav.open {
+  @apply absolute top-20 w-11/12 bg-white z-50 p-8 rounded-lg shadow-xl left-auto;
+}
+
+button {
+  @apply hover:opacity-80;
+}
