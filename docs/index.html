@@ -6,41 +6,57 @@
     <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
   </head>
-  <body class=" bg-veryLightGray font-sans overflow-x-hidden">
-   
-    <header class="shadow bg-white relative  z-50 ">
+  <body class="bg-veryLightGray font-sans overflow-x-hidden">
+    <header class="shadow bg-white relative z-50">
       <div
         class="mx-auto max-w-xl md:max-w-4xl lg:max-w-6xl p-6 flex justify-between items-center"
       >
         <div class="logo">
-          <img src="../images/logo.svg" alt="" />
+          <img src="/images/logo.svg" alt="" />
         </div>
 
-        <nav id="nav" class="absolute -left-full transition-all duration-400 md:left-0 md:relative"> 
-          
-          <ul class="flex flex-col items-center justify-center gap-4 md:flex-row">
-            <li class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen">home</li>
-            <li class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen">
+        <nav
+          id="nav"
+          class="absolute -left-full transition-all duration-400 md:left-0 md:relative"
+        >
+          <ul
+            class="flex flex-col items-center justify-center gap-4 md:flex-row"
+          >
+            <li
+              class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen"
+            >
+              home
+            </li>
+            <li
+              class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen"
+            >
               about
             </li>
-            <li class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen">blog</li>
-            <li class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen">
+            <li
+              class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen"
+            >
+              blog
+            </li>
+            <li
+              class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen"
+            >
               contact
             </li>
-            <li class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen">
+            <li
+              class="capitalize text-grayishBlue font-semibold px-3 hover:border-b-2 hover:border-limeGreen"
+            >
               career
             </li>
           </ul>
         </nav>
-         <button
-          class="bg-limeGreen hidden md:block  capitalize  rounded-3xl p-2 text-veryLightGray font-medium"
+        <button
+          class="bg-limeGreen hidden md:block capitalize rounded-3xl p-2 text-veryLightGray font-medium"
         >
           request invite
         </button>
-       <div class="block md:hidden">
-        
-         <img src="../images/icon-hamburger.svg" class=" menu-btn" alt="" />
-       </div>
+        <div class="block md:hidden">
+          <img src="/images/icon-hamburger.svg" class="menu-btn" alt="" />
+        </div>
       </div>
     </header>
 
@@ -68,19 +84,21 @@
         <picture>
           <source
             media="(min-width: 768px)"
-            srcset="../images/bg-intro-desktop.svg"
+            srcset="/images/bg-intro-desktop.svg"
           />
-          <img src="../images/bg-intro-mobile.svg" class="w-full" alt="" />
+          <img src="/images/bg-intro-mobile.svg" class="w-full" alt="" />
         </picture>
         <img
-          src="../images/image-mockups.png"
+          src="/images/image-mockups.png"
           class="absolute -top-32 lg:-right-16"
         />
       </div>
     </section>
     <section class="bg-lightGrayishBlue py-20">
       <div class="container p-6 mx-auto max-w-xl md:max-w-4xl lg:max-w-6xl">
-        <div class="max-w-sm md:max-w-2xl text-center md:text-start mx-auto md:mx-0">
+        <div
+          class="max-w-sm md:max-w-2xl text-center md:text-start mx-auto md:mx-0"
+        >
           <h2 class="text-darkBlue font-light text-4xl">
             Why choose Easybank?
           </h2>
@@ -89,20 +107,22 @@
             financial hub. Control your finances like never before
           </p>
         </div>
-        <div class="grid grid-cols-1 place-items-center md:place-items-start md:grid-cols-2 lg:grid-cols-4  gap-5">
+        <div
+          class="grid grid-cols-1 place-items-center md:place-items-start md:grid-cols-2 lg:grid-cols-4 gap-5"
+        >
           <article
-            class="py-5 flex flex-col max-w-72  items-center text-center md:text-start md:items-start"
+            class="py-5 flex flex-col max-w-72 items-center text-center md:text-start md:items-start"
           >
             <img
-              src="../images/icon-online.svg"
+              src="/images/icon-online.svg"
               class="py-5 block mx-auto md:mx-0"
               alt=""
             />
-            <h3 class="text-darkBlue font-bold  mx-auto md:mx-0">
+            <h3 class="text-darkBlue font-bold mx-auto md:mx-0">
               Online Banking
             </h3>
             <p
-              class="my-4 font-normal text-sm  text-grayishBlue  mx-auto md:mx-0"
+              class="my-4 font-normal text-sm text-grayishBlue mx-auto md:mx-0"
             >
               Our modern web and mobile applications allow you to keep track of
               your finance wherever you are in the world
@@ -112,15 +132,15 @@
             class="py-5 flex flex-col max-w-72 items-center text-center md:text-start md:items-start"
           >
             <img
-              src="../images/icon-budgeting.svg"
+              src="/images/icon-budgeting.svg"
               class="py-5 block mx-auto md:mx-0"
               alt=""
             />
-            <h3 class="text-darkBlue font-bold  mx-auto md:mx-0">
+            <h3 class="text-darkBlue font-bold mx-auto md:mx-0">
               Simple Budgeting
             </h3>
             <p
-              class="my-4 font-normal text-sm text-grayishBlue  mx-auto md:mx-0"
+              class="my-4 font-normal text-sm text-grayishBlue mx-auto md:mx-0"
             >
               Our modern web and mobile applications allow you to keep track of
               your finance wherever you are in the world
@@ -130,15 +150,15 @@
             class="py-5 flex flex-col max-w-72 items-center text-center md:text-start md:items-start"
           >
             <img
-              src="../images/icon-onboarding.svg"
+              src="/images/icon-onboarding.svg"
               class="py-5 block mx-auto md:mx-0"
               alt=""
             />
-            <h3 class="text-darkBlue font-bold  mx-auto md:mx-0">
+            <h3 class="text-darkBlue font-bold mx-auto md:mx-0">
               Fast Onboarding
             </h3>
             <p
-              class="my-4 font-normal text-sm text-grayishBlue  mx-auto md:mx-0"
+              class="my-4 font-normal text-sm text-grayishBlue mx-auto md:mx-0"
             >
               Our modern web and mobile applications allow you to keep track of
               your finance wherever you are in the world
@@ -148,15 +168,13 @@
             class="py-5 flex flex-col max-w-72 items-center text-center md:text-start md:items-start"
           >
             <img
-              src="../images/icon-api.svg"
+              src="/images/icon-api.svg"
               class="py-5 block mx-auto md:mx-0"
               alt=""
             />
-            <h3 class="text-darkBlue font-bold  mx-auto md:mx-0">
-              OpenAPI
-            </h3>
+            <h3 class="text-darkBlue font-bold mx-auto md:mx-0">OpenAPI</h3>
             <p
-              class="my-4 font-normal text-sm text-grayishBlue  mx-auto md:mx-0"
+              class="my-4 font-normal text-sm text-grayishBlue mx-auto md:mx-0"
             >
               Our modern web and mobile applications allow you to keep track of
               your finance wherever you are in the world
@@ -165,12 +183,16 @@
         </div>
       </div>
     </section>
-    <section class="py-20 p-6 max-w-xl md:max-w-4xl lg:max-w-6xl m-auto container">
+    <section
+      class="py-20 p-6 max-w-xl md:max-w-4xl lg:max-w-6xl m-auto container"
+    >
       <h2 class="text-darkBlue font-light text-4xl mb-10">Latest Articles</h2>
-      <div class="grid grid-cols-1 place-items-center md:place-items-start md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div
+        class="grid grid-cols-1 place-items-center md:place-items-start md:grid-cols-2 lg:grid-cols-4 gap-5"
+      >
         <article class="flex flex-col shadow">
           <img
-            src="../images/image-currency.jpg"
+            src="/images/image-currency.jpg"
             class="md:h-60 md:object-cover rounded-t-md"
             alt=""
           />
@@ -181,7 +203,9 @@
             <h3 class="my-5 text-xl text-darkBlue font-medium">
               Receive money in any currency with no fees
             </h3>
-            <p class="font-normal text-base text-grayishBlue hover:text-limeGreen">
+            <p
+              class="font-normal text-base text-grayishBlue hover:text-limeGreen"
+            >
               The world is getting smaller and we're becoming more mobile. So
               why should you be forced to only receive money in a single...
             </p>
@@ -189,7 +213,7 @@
         </article>
         <article class="flex flex-col shadow">
           <img
-            src="../images/image-restaurant.jpg"
+            src="/images/image-restaurant.jpg"
             class="md:h-60 md:object-cover rounded-t-md"
             alt=""
           />
@@ -198,7 +222,9 @@
             <h3 class="my-5 text-xl text-darkBlue font-medium">
               Treat yourself without worrying about money
             </h3>
-            <p class="font-normal text-base text-grayishBlue hover:text-limeGreen">
+            <p
+              class="font-normal text-base text-grayishBlue hover:text-limeGreen"
+            >
               Our simple budgeting feature allows you to separate out your
               spending and set realistic limits each month. That means you...
             </p>
@@ -206,7 +232,7 @@
         </article>
         <article class="flex flex-col shadow">
           <img
-            src="../images/image-plane.jpg"
+            src="/images/image-plane.jpg"
             class="md:h-60 md:object-cover rounded-t-md"
             alt=""
           />
@@ -215,7 +241,9 @@
             <h3 class="my-5 text-xl text-darkBlue font-medium">
               Take your Easybank card wherever you go
             </h3>
-            <p class="font-normal text-base text-grayishBlue hover:text-limeGreen">
+            <p
+              class="font-normal text-base text-grayishBlue hover:text-limeGreen"
+            >
               The world is getting smaller and we're becoming more mobile. So
               why should you be forced to only receive money in a single...
             </p>
@@ -223,7 +251,7 @@
         </article>
         <article class="flex flex-col shadow">
           <img
-            src="../images/image-confetti.jpg"
+            src="/images/image-confetti.jpg"
             class="md:h-60 md:object-cover rounded-t-md"
             alt=""
           />
@@ -234,7 +262,9 @@
             <h3 class="my-5 text-xl text-darkBlue font-medium">
               Our invite-only Beta accounts are now live!
             </h3>
-            <p class="font-normal text-base text-grayishBlue hover:text-limeGreen">
+            <p
+              class="font-normal text-base text-grayishBlue hover:text-limeGreen"
+            >
               After a lot of hard work by the whole team, we're excited to
               launch our closed beta. It's easy to request an invite through the
               site..
@@ -251,41 +281,53 @@
           class="flex flex-col gap-2 md:justify-between md:flex-row md:gap-32"
         >
           <div class="flex flex-col gap-4 md:gap-16">
-            <img src="../images/logo-dark.svg" class="mx-auto md:mx-0" alt="" />
+            <img src="/images/logo-dark.svg" class="mx-auto md:mx-0" alt="" />
             <ul class="flex gap-4 mx-auto md:mx-0">
-              <img src="../images/icon-facebook.svg" alt="" />
-              <img src="../images/icon-youtube.svg" alt="" />
-              <img src="../images/icon-twitter.svg" alt="" />
-              <img src="../images/icon-pinterest.svg" alt="" />
-              <img src="../images/icon-instagram.svg" alt="" />
+              <img src="/images/icon-facebook.svg" alt="" />
+              <img src="/images/icon-youtube.svg" alt="" />
+              <img src="/images/icon-twitter.svg" alt="" />
+              <img src="/images/icon-pinterest.svg" alt="" />
+              <img src="/images/icon-instagram.svg" alt="" />
             </ul>
           </div>
           <ul class="flex flex-col mx-auto md:mx-0 gap-2 md:gap-4">
-            <li class="text-lightGrayishBlue font-semibold text-xl hover:text-limeGreen">
+            <li
+              class="text-lightGrayishBlue font-semibold text-xl hover:text-limeGreen"
+            >
               About Us
             </li>
-            <li class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen">
+            <li
+              class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen"
+            >
               Contact
             </li>
-            <li class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen">
+            <li
+              class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen"
+            >
               Blog
             </li>
           </ul>
 
           <ul class="flex flex-col mx-auto md:mx-0 gap-2 md:gap-4">
-            <li class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen">
+            <li
+              class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen"
+            >
               Career
             </li>
-            <li class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen">
+            <li
+              class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen"
+            >
               Support
             </li>
-            <li class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen">
+            <li
+              class="text-lightGrayishBlue font-semibold text-xl text-center hover:text-limeGreen"
+            >
               Privacy Policy
             </li>
           </ul>
         </div>
         <div
-          class="flex flex-col mx-auto  mt-6 lg:m-0 items-center gap-4 lg:items-end md:gap-8"
+          class="flex flex-col mx-auto mt-6 lg:m-0 items-center gap-4 lg:items-end md:gap-8"
         >
           <div>
             <button
@@ -302,8 +344,8 @@
     </footer>
     <script>
       // Toggle the mobile menu
-      const navBar = document.getElementById('nav')
-      const open = document.querySelector('.menu-btn');
+      const navBar = document.getElementById("nav");
+      const open = document.querySelector(".menu-btn");
 
       open.addEventListener("click", () => {
         navBar.classList.toggle("open");
