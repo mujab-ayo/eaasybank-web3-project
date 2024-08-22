@@ -5,6 +5,6 @@
     "tailwindcss": "^3.4.10"
   },
   "scripts": {
-    "build": "tailwindcss -i ./docs/input.css -o ./docs/output.css --watch"
+    "build": "tailwindcss -i ./input.css -o ./output.css --watch"
   }
 }
